@@ -1,0 +1,20 @@
+grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
+students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
+students = sorted(students)
+GPA = [sum(grades[0]) / len(grades[0]), sum(grades[1]) / len(grades[1]), sum(grades[2]) / len(grades[2]), sum(grades[3]) / len(grades[3]), sum(grades[4]) / len(grades[4])]
+#print(GPA)
+#sum(grades[0]) / len(grades[0])
+#sum(grades[1]) / len(grades[1])
+#sum(grades[2]) / len(grades[2])
+#sum(grades[3]) / len(grades[3])
+#sum(grades[4]) / len(grades[4])
+#print(students[0] + str(sum(grades[0]) / len(grades[0])))
+#print(students[1] + str(sum(grades[1]) / len(grades[1])))
+#print(students[2] + str(sum(grades[2]) / len(grades[2])))
+#print(students[3] + str(sum(grades[3]) / len(grades[3])))
+#print(students[4] + str(sum(grades[4]) / len(grades[4])))
+score_list = dict(zip(students, GPA))
+#score_list = list(zip(students, GPA))
+print(score_list)
+print(type(score_list))
+#print(score_list["Johnny"])
